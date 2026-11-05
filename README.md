@@ -6,7 +6,7 @@ The application allows users to upload CSV and Excel datasets, analyze their str
 
 ## 🚀 Live Demo
 
-**Try the application here:** [Automated EDA Web Application]([https://automated-eda-project.streamlit.app/](https://automated-eda---project-sahilkumar-003.streamlit.app/))
+**Try the application here:** [Automated EDA Web Application](https://automated-eda---project-sahilkumar-003.streamlit.app/)
 
 ## ✨ Features
 
