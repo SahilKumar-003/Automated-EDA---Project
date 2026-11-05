@@ -1,53 +1,8 @@
-# # EDA Exploratrary Data Analysis
-# #UI -> File Upload->
-# # modules to be used
-# # 1 -> pandas
-# # 2 -> matplotlib
-# # 3 -> Streamlit -> used to generate UI for web application
-# # pip install streamlit
-
-# import streamlit as st
-# import pandas as pd
-# import matplotlib.pyplot as plt
-# import seaborn as sns
-
-# st.set_page_config(layout= "wide")
-# st.title("Automated EDA...")
-
-# uploader = st.file_uploader(label = "Upload your dataset:",type = ["csv", "xlsx"])
-# # py -3.13 -m pip install openpyxl -> run this command to read .xlsx files
-# if uploader is not None:
-#     # print(uploader)
-#     if str(uploader.name).endswith(".csv"):
-#         data = pd.read_csv(uploader)
-#         st.dataframe(data.head())
-
-#         st.subheader("All columns")
-#         st.write(data.columns)
-
-#         st.subheader("Rows index")
-#         st.write(data.index[0:])
-
-#         st.subheader("All Statistics")
-#         st.write(data.describe())
-
-#         st.subheader("Correlation of each columns")
-#         st.write(data.corr(numeric_only=True))
-
-#         for col in data.columns:
-#             if data[col].dtype == "str":
-#                 continue
-#             plt.scatter(data[col], data.iloc[:,])
-#     elif str(uploader.name).endswith(".xlsx"):
-#         data = pd.read_excel(uploader)
-#         st.dataframe(data.head())
-#     else:
-#         st.error("Unsupported file", icon = "❌")
-       
-
-
-
-# pip install streamlit pandas matplotlib seaborn openpyxl
+# pip install streamlit
+# pip install pandas
+# pip install matplotlib
+# pip install seaborn
+# py -3.13 -m pip install openpyxl
 
 # Run command:
 # streamlit run eda.py
